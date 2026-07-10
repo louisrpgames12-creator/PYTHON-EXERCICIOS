@@ -1,0 +1,6 @@
+nome = 'João'
+peso = 70
+altura = 1.65
+imc = peso / (altura ** 2)
+
+print(nome, "SEU IMC E:", imc)
