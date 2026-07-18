@@ -1,0 +1,8 @@
+primeiro_nome = input('Me informe seu primeiro nome: ')
+tamanho_primeiro_nome = len(primeiro_nome)
+if tamanho_primeiro_nome <= 4:
+    print('Seu nome é curto')
+elif tamanho_primeiro_nome > 4 and tamanho_primeiro_nome <= 5:
+    print('Seu nome é normal')
+else:
+    print('Seu nome é grande')
