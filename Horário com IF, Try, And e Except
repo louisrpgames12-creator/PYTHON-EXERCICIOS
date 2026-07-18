@@ -1,0 +1,15 @@
+horario = input('Me informe as horas: ')
+try:
+    horario = int(horario)
+    if horario >= 0 and horario <= 4:
+        print('Boa Madrugada')
+    elif horario >= 5 and horario <= 11:
+        print('Bom Dia')
+    elif horario >= 12 and horario <= 17:
+        print('Boa Tarde')
+    elif horario >= 18 and horario <= 23:
+        print('Boa Noite')
+    else:
+        print('Você digitou um horário inválido')
+except:
+    print('Você não digitou um número')
