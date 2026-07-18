@@ -1,0 +1,9 @@
+numero_inteiro = input('Digite um número inteiro: ')
+try:
+    numero_inteiro = int(numero_inteiro)
+    if numero_inteiro % 2 == 0:
+        print('Número inteiro é par')
+    else:
+        print('Número inteiro é impar')
+except:
+    print('o número digitado não é um número inteiro')
